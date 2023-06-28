@@ -23,17 +23,11 @@ main {
 
 .topo{
     height: 5vh;
+    width: 550px;
+    display: flex;
+    align-items: center;
 }
 
-.topo-inicio{
-    display: flex;
-    align-items: start;
-}
-
-.topo-fim{
-    display: flex;
-    justify-content: end;
-}
 
 .img-calc{
     margin-left: 2vh;
@@ -49,6 +43,10 @@ main {
     font-weight: 800;
 }
 
+.teste{
+    position: relative;
+    left: 60%;
+}
 
 .minus{
     outline: none;
