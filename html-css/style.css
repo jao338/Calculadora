@@ -5,99 +5,22 @@
 }
 
 main {
-    background: linear-gradient(90deg, #02b4fc, #084dc4);
     min-height: 100vh;
-    padding-top: 2%;
     box-sizing: border-box;
-}
-
-.calculadora{
-    text-align: center;
-    width: 550px;
-    height: 650px;
-    background-color: #e5e5e5;
-    margin: auto;
-    border: 1px solid black;
-    border-radius: 2%;
-}
-
-.topo{
-    height: 5vh;
-    width: 550px;
     display: flex;
-    align-items: center;
-    border: 1px solid black;
-}
-
-.visor{
-    height: 20vh;
-    width: 550px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    border: 1px solid green;
+    align-items: center;
 }
 
-.btn-num{
+#btn-igual{
     width: 50px;
-    height: 25px;
-    border: none;
-    background-color: white;
 }
 
-.btn-op{
-    width: 100px;
-    height: 75px;
-    border: none;
-    background-color: white;
-}
-
-.btn-equal{
-    width: 100px;
-    height: 75px;
-    background-color: aqua;
-    border: none;
-}
-
-.base{
-    height: 5vh;
-    width: 550px;
+#calc{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border: 1px solid pink;
+    align-items: center;
 }
-
-.img-calc{
-    margin-left: 2vh;
-    margin-top: 2vh;
-    width: 32px; 
-    height: 32px;
-
-}
-
-.titulo{
-    margin-left: 1vh;
-    font-size: 16pt;
-    font-weight: 800;
-}
-
-.topo-fim{
-    position: relative;
-    left: 60%;
-}
-
-.minus{
-    outline: none;
-}
-
-.square{
-    border: none;
-    outline: none;
-}
-
-.close{
-    border: none;
-    outline: none;
-}
-
